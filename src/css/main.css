@@ -1,4 +1,19 @@
 body {
   background: red; }
 
+header.jumbotron {
+  background: url("../../assets/images/journaling-at-breakfast_4460x4460.jpg");
+  background-size: cover;
+  background-position: center center; }
+header .navbar {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px; }
+  header .navbar .navbar-brand img {
+    width: 150px;
+    height: auto; }
+  header .navbar .navbar-nav .nav-link {
+    color: #ffffff; }
+    header .navbar .navbar-nav .nav-link:hover {
+      color: #cccccc; }
+
 /*# sourceMappingURL=main.css.map */

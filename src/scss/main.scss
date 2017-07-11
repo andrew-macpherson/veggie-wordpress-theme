@@ -1,4 +1,34 @@
+@import "partials/_mixins";
+
 body{
 	background: red;
-	
+}
+
+header{
+	&.jumbotron{
+		background: url('../../assets/images/journaling-at-breakfast_4460x4460.jpg');
+		background-size:cover;
+		background-position:center center; 
+	}
+
+	.navbar{
+	    background: rgba(0,0,0,0.6);
+	    border-radius: 10px;
+
+	    .navbar-brand{
+	    	img{
+	    		width:150px;
+	    		height:auto;
+	    	}
+	    }
+
+	    .navbar-nav{
+	    	.nav-link{
+	    		color:$menu-font-color;
+    			&:hover{
+    				color:darken($menu-font-color,20%);
+    			}
+	    	}
+	    }
+	}
 }
