@@ -1,0 +1,23 @@
+{
+  "name": "veggie",
+  "version": "1.0.0",
+  "description": "WordPress blog",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-macpherson/veggie-wordpress-theme.git"
+  },
+  "author": "Andrew MacPherson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrew-macpherson/veggie-wordpress-theme/issues"
+  },
+  "homepage": "https://github.com/andrew-macpherson/veggie-wordpress-theme#readme",
+  "dependencies": {
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
