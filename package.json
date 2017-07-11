@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/andrew-macpherson/veggie-wordpress-theme#readme",
   "dependencies": {
+    "grunt": "^1.0.1",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0"
   }
